@@ -1,0 +1,22 @@
+main > section.static {
+  margin-top: 128px;
+}
+main > section.static > div.statics {
+  top: 2600px;
+  margin: 128px 0px;
+  background-color: #616161;
+  width: 100%;
+  padding: 64px;
+  display: flex;
+  flex-direction: row;
+}
+main > section.static > div.statics > div.about {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+main > section.static > div.statics > div.about > div.text1 {
+  font-size: 36px;
+}
+main > section.static > div.statics > div.about > div.text2 {
+}

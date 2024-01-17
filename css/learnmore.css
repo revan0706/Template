@@ -1,0 +1,41 @@
+main > section.learnMore {
+  background-color: aquamarine;
+  position: absolute;
+  top: 51.2px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-image: url(../photos/mac.jpg);
+}
+main > section.learnMore > div.text {
+  color: white;
+  position: absolute;
+  top: 180px;
+  left: 50px;
+}
+main > section.learnMore > div.text > h1 {
+  font-weight: 600;
+  font-size: 55px;
+  margin-top: 0px;
+}
+main > section.learnMore > div.text > p {
+  font-weight: 600;
+  margin-bottom: 45px;
+}
+main > section.learnMore > div.text > a {
+  text-decoration: none;
+  padding: 12px 24px;
+  background-color: #cccccc;
+  color: black;
+}
+main > section.learnMore > div.text > a:hover {
+  background-color: #f1f1f1;
+}
+main > section.learnMore > div.icon {
+  position: absolute;
+  left: 50px;
+  bottom: 0px;
+}
+main > section.learnMore > div.icon > i {
+  color: #cccccc;
+}

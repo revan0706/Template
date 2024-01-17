@@ -1,0 +1,33 @@
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  height: 250px;
+  gap: 30px;
+}
+footer > div.toTop > a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: black;
+  background-color: #f1f1f1;
+  padding: 14px;
+}
+footer > div.toTop > a:hover {
+  background-color: #ccc;
+}
+footer > div {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+footer > p {
+  display: flex;
+  justify-content: center;
+}
+footer > p > u:hover {
+  color: blue;
+}

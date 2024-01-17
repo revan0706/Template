@@ -1,0 +1,45 @@
+section.team {
+  margin-top: 2000px;
+  background-color: white;
+  padding-top: 128px;
+}
+section.team > h1 {
+  text-align: center;
+}
+section.team > p {
+  text-align: center;
+}
+section.team > section.users {
+  margin: 10px;
+  gap: 10px;
+  display: flex;
+}
+section.team > section.users > div.user {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px black;
+  flex: 1;
+}
+section.team > section.users > div.user > div.about > a {
+  text-decoration: none;
+  display: flex;
+  color: black;
+  justify-content: center;
+  background-color: #f1f1f1;
+  padding: 12px 5px;
+  margin: 0px 18px;
+  text-align: center;
+}
+section.team > section.users > div.user > div.about > a:hover {
+  background-color: #cccccc;
+}
+section.team > section.users > div.user > div.foto {
+}
+section.team > section.users > div.user > div.foto > img {
+  filter: grayscale(70%);
+  width: 100%;
+}
+section.team > section.users > div.user > div.about {
+  padding: 24px;
+}

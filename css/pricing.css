@@ -1,0 +1,110 @@
+section.pricing > div.title {
+  display: flex;
+  justify-content: center;
+  background-color: #616161;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 128px;
+}
+
+section.pricing > h1 {
+}
+section.pricing > p {
+}
+
+section.pricing > div.pricings {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+  background-color: #616161;
+  padding: 30px;
+}
+
+section.pricing > div.pricings > div.pricing {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  flex: 1;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+section.pricing > div.pricings > div.pricing:hover {
+  box-shadow: 4px 4px 15px black;
+}
+section.pricing > div.pricings > div.pricing > h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 24px 8px;
+  margin: 0px;
+}
+section.pricing > div.pricings > div.pricing > p {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 24px;
+}
+section.pricing > div.pricings > div.pricing > div.price {
+  text-align: center;
+}
+section.pricing > div.pricings > div.pricing > div.sign {
+  padding: 32px 8px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+section.pricing > div.pricings > div.pricing > div.sign > a {
+  padding: 16px 16px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+section.pricing > div.pricings > div.pricing > div.sign > a:hover {
+  background-color: #ccc;
+  color: black;
+}
+/* Pro */
+section.pricing > div.pricings > div.pro {
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  flex: 1;
+  background-color: white;
+  margin-bottom: 30px;
+}
+section.pricing > div.pricings > div.pro:hover {
+  box-shadow: 4px 4px 15px black;
+}
+section.pricing > div.pricings > div.pro > h1 {
+  background-color: #f44336;
+  color: white;
+  text-align: center;
+  padding: 32px 8px;
+  margin: 0px;
+}
+section.pricing > div.pricings > div.pro > p {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  padding-bottom: 36px;
+}
+section.pricing > div.pricings > div.pro > div.price {
+  text-align: center;
+}
+section.pricing > div.pricings > div.pro > div.sign {
+  padding: 32px 8px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+section.pricing > div.pricings > div.pro > div.sign > a {
+  padding: 16px 16px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+section.pricing > div.pricings > div.pro > div.sign > a:hover {
+  background-color: #ccc;
+  color: black;
+}

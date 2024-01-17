@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  width: 100%;
+  background-color: aqua;
+  background-color: white;
+  box-shadow: 1px 1px 5px black;
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+header > a {
+}
+header > div {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+}
+header > div > a {
+}
+header a {
+  text-decoration: none;
+  font-weight: 400;
+  color: black;
+  padding: 16px;
+}
+header a:hover {
+  background-color: #cccccc;
+}
