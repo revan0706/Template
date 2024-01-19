@@ -18,7 +18,8 @@ section.contact > div.form {
   gap: 20px;
 }
 section.contact > div.form > input.text {
-  width: 1400px;
+  /* width: 1400px; */
+  width: 100%;
   padding: 12px;
 }
 section.contact > div.form > input:last-child {

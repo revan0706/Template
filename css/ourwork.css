@@ -1,8 +1,8 @@
 section#ourwork {
   display: grid;
   grid-template-areas:
-    "t t t"
-    "j j j";
+    "t "
+    "j ";
   gap: 35px;
   padding-bottom: 128px;
 }
@@ -11,17 +11,26 @@ section#ourwork div {
 }
 
 section#ourwork > div.foto {
-  grid-area: j;
-  display: flex;
-  flex-wrap: wrap;
+  /* grid-area: j; */
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   gap: 10px;
+  position: relative;
+  /* justify-content: center; */
   justify-content: center;
-  width: 100%;
+  left: 0px;
+  right: 0px;
+  /* width: 100%; */
+  display: grid;
+  /* grid-template-rows: 20% 20% ; */
+  grid-template-columns:22%  22% 22% 22%;
+  /* display: block; */
+
 }
 section#ourwork > div.foto > img {
-  display: block;
-  width: 350px;
-  margin: 2px;
+  margin: 0px 10px 0px 10px;
+  width: 100%;
+  /* margin: 2px; */
 }
 section#ourwork > div.foto > img:hover {
   opacity: 0.6;
@@ -29,4 +38,11 @@ section#ourwork > div.foto > img:hover {
 section#ourwork > div.text {
   text-align: center;
   grid-area: t;
+}
+
+
+section#ourwork > div.text >h3{
+  font-size: 25px;
+  font-family: raleway;
+  font-weight: 300;
 }

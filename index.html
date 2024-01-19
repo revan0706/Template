@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/learnmore.css" />
     <link rel="stylesheet" href="css/about.css" />
@@ -16,21 +15,41 @@
     <link rel="stylesheet" href="css/pricing.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/menu2.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <header id="head" target="head">
       <a href="#">LOGO</a>
-      <div>
-        <a href="#" target="about">ABOUT</a>
-        <a href="#"><i class="fa-solid fa-user"></i> TEAM</a>
-        <a href="#"><i class="fa-solid fa-grip"></i> WORK</a>
-        <a href="#"><i class="fa-solid fa-dollar-sign"></i> PRICING</a>
-        <a href="#"><i class="fa-solid fa-envelope"></i> CONTACT</a>
+      <div class="menuButton h1">
+        <a href="#"><i class="fa-solid fa-bars"></i></a>
+      </div>
+      <section class="menu2">
+        <div class="close">
+          <a href="#">CLOSE <i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <div class="list">
+          <a href="#about">ABOUT</a>
+          <a href="#team">TEAM</a>
+          <a href="#work">WORK</a>
+          <a href="#pricing">PRICING</a>
+          <a href="#contact">CONTACT</a>
+        </div>
+      </section>
+
+      <div class="horMenu">
+        <a href="#" target="about" id="about">ABOUT</a>
+        <a href="#" class="h1"><i class="fa-solid fa-user"></i> TEAM</a>
+        <a href="#" class="h1"><i class="fa-solid fa-grip"></i> WORK</a>
+        <a href="#" class="h1"
+          ><i class="fa-solid fa-dollar-sign"></i> PRICING</a
+        >
+        <a href="#" class="h1"><i class="fa-solid fa-envelope"></i> CONTACT</a>
       </div>
     </header>
 
     <main>
-      <section class="learnMore">
+      <section class="learnMore" id="learnMore">
         <div class="text">
           <h1>Start something that matters</h1>
           <p>Stop wasting valuable time with projects that just isn't you.</p>
@@ -45,8 +64,8 @@
           <i class="fa-brands fa-linkedin"></i>
         </div>
       </section>
-      <section id="about">
-        <h1>ABOUT THE COMPANY</h1>
+      <section id="about" class="about">
+        <h1 id="About">ABOUT THE COMPANY</h1>
         <p>Key features of our company</p>
         <div class="features">
           <div class="feature">
@@ -104,7 +123,7 @@
           <img src="photos/phone_buildings.jpg" alt="" />
         </div>
       </section>
-      <section class="team">
+      <section class="team" id="team">
         <h1>THE TEAM</h1>
         <p>The ones who runs this company</p>
         <section class="users">
@@ -224,7 +243,7 @@
           </div>
         </div>
       </section>
-      <section class="pricing">
+      <section class="pricing" id="pricing">
         <div class="title">
           <h1>Pricing</h1>
           <p>Choose a pricing plan that fits your needs.</p>
@@ -268,7 +287,7 @@
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="title">
           <h1>Contact</h1>
           <p>Lets get in touch. Send us a message:</p>
@@ -320,7 +339,7 @@
     </main>
     <footer>
       <div class="toTop">
-        <a href="about"
+        <a href="#learnMore"
           ><i class="fa-solid fa-up-long"></i> &nbsp; &nbsp; To the Top</a
         >
       </div>

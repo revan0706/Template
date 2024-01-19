@@ -1,0 +1,44 @@
+div.menuButton {
+  display: none;
+}
+div.menuButton > a {
+  float: right;
+}
+
+section.menu2 {
+  display: none;
+}
+
+div.menuButton:focus-within ~ section.menu2 {
+  display: block;
+  z-index: 999999999;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  /* display: inline-block; */
+  width: 50%;
+  animation: verMenu 0.4s;
+
+  left: 0;
+}
+
+section.menu2 a {
+  color: white;
+  background-color: black;
+}
+section.menu2 a:hover {
+  background-color: #cccccc;
+  color: black;
+}
+section.menu2 > div.close:focus-within ~ div.list {
+}
+
+@keyframes verMenu {
+  0% {
+    left: -283.2px;
+  }
+  100% {
+    left: 0px;
+  }
+}

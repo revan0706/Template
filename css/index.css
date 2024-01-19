@@ -8,3 +8,65 @@
 body {
   margin: 0px;
 }
+@media (max-width:1000px){
+ 
+  section.team > section.users{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 32px;
+  }
+  section.team > section.users > div.user{
+    margin: 5px;
+  }
+  section#ourwork > div.foto {
+    display: grid;
+    grid-template-columns: 45% 45%;
+  }
+  /* main > section.ourSkills{
+    display: flex;
+  } */
+} 
+
+@media (max-width:600px){
+  div.horMenu{
+    display: none;
+  }
+  div.menuButton{
+    display: block;
+    
+  }
+  section#about > div.features {
+flex-direction: column  
+  }
+  main > section.design{
+    top: 1777px;
+  }
+  section.team{
+    margin-top: 2538px;
+  }
+  main > section.design{
+    flex-direction: column;
+  }
+  section.team > section.users{
+    display: grid;
+    grid-template-columns: auto;
+    padding: 32px;
+  }
+  main > section.static > div.statics{
+    flex-direction: column;
+    gap: 30px;
+  }
+  section#ourwork > div.foto{
+    grid-template-columns: 82%;
+  }
+  main > section.ourSkills{
+    flex-direction: column;
+    gap: 0px;
+  }
+  main > section.ourSkills > div.text{
+    width: 100%;
+  }
+  section.pricing > div.pricings{
+    flex-direction: column;
+  }
+}

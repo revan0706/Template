@@ -5,7 +5,12 @@ main > section.learnMore {
   right: 0px;
   left: 0px;
   bottom: 0px;
+  width: 100%;
+  background-position: center;
+  /* height: 100%; */
   background-image: url(../photos/mac.jpg);
+
+/* background-repeat: no-repeat; */
 }
 main > section.learnMore > div.text {
   color: white;
@@ -34,7 +39,7 @@ main > section.learnMore > div.text > a:hover {
 main > section.learnMore > div.icon {
   position: absolute;
   left: 50px;
-  bottom: 0px;
+  bottom: 5px;
 }
 main > section.learnMore > div.icon > i {
   color: #cccccc;
