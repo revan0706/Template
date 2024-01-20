@@ -9,7 +9,7 @@ section.menu2 {
   display: none;
 }
 
-div.menuButton:focus-within ~ section.menu2 {
+div.menuButton:hover ~ section.menu2 {
   display: block;
   z-index: 999999999;
   background-color: black;
