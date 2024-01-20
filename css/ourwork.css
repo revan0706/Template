@@ -11,26 +11,17 @@ section#ourwork div {
 }
 
 section#ourwork > div.foto {
-  /* grid-area: j; */
-  /* display: flex; */
-  /* flex-wrap: wrap; */
   gap: 10px;
   position: relative;
-  /* justify-content: center; */
   justify-content: center;
   left: 0px;
   right: 0px;
-  /* width: 100%; */
   display: grid;
-  /* grid-template-rows: 20% 20% ; */
-  grid-template-columns:22%  22% 22% 22%;
-  /* display: block; */
-
+  grid-template-columns: 22% 22% 22% 22%;
 }
 section#ourwork > div.foto > img {
   margin: 0px 10px 0px 10px;
   width: 100%;
-  /* margin: 2px; */
 }
 section#ourwork > div.foto > img:hover {
   opacity: 0.6;
@@ -40,8 +31,7 @@ section#ourwork > div.text {
   grid-area: t;
 }
 
-
-section#ourwork > div.text >h3{
+section#ourwork > div.text > h3 {
   font-size: 25px;
   font-family: raleway;
   font-weight: 300;

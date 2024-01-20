@@ -3,7 +3,7 @@ main > section.ourSkills {
   flex-direction: row;
   width: 100%;
   background-color: #f1f1f1;
-  
+  gap: 30px;
   padding: 16px 32px;
  
 }

@@ -33,10 +33,7 @@ section.menu2 a:hover {
 }
 section.menu2 > div.close:focus-within ~ div.list {
 }
-section.menu2 > div.close~ div.list{
-  display: flex;
-  flex-direction: column;
-}
+
 @keyframes verMenu {
   0% {
     left: -283.2px;
