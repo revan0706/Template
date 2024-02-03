@@ -22,11 +22,19 @@
     <header id="head" target="head">
       <a href="#" class="h1">LOGO</a>
       <div class="menuButton h1">
-        <a href="#" class="h1"><i class="fa-solid fa-bars"></i></a>
+        <a
+          class="h1"
+          onclick="document.getElementById('verMenu').style.display='block'"
+          ><i class="fa-solid fa-bars"></i
+        ></a>
       </div>
-      <section class="menu2 verMenu">
+      <section class="menu2 verMenu" id="verMenu">
         <div class="close">
-          <a href="#" class="h1">CLOSE <i class="fa-solid fa-xmark"></i></a>
+          <a
+            class="h1"
+            onclick="document.getElementById('verMenu').style.display='none'"
+            >CLOSE <i class="fa-solid fa-xmark"></i
+          ></a>
         </div>
         <div class="list">
           <a href="#about" class="h1">ABOUT</a>
@@ -44,7 +52,9 @@
         <a href="#pricing" class="h1"
           ><i class="fa-solid fa-dollar-sign"></i> PRICING</a
         >
-        <a href="#contact" class="h1"><i class="fa-solid fa-envelope"></i> CONTACT</a>
+        <a href="#contact" class="h1"
+          ><i class="fa-solid fa-envelope"></i> CONTACT</a
+        >
       </div>
     </header>
 
@@ -198,7 +208,7 @@
         </div>
       </section>
 
-      <section  id="ourwork">
+      <section id="ourwork">
         <div class="text">
           <h3>OUR WORK</h3>
           <p>What we've done for people</p>

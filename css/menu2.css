@@ -9,8 +9,8 @@ section.menu2 {
   display: none;
 }
 
-div.menuButton:hover ~ section.menu2 {
-  display: block;
+div.menuButton ~ section.menu2 {
+  display: none;
   z-index: 999999999;
   background-color: black;
   position: fixed;
