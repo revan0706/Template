@@ -35,7 +35,7 @@ main > section.ourSkills > div.text {
   flex: 3;
   flex-direction: column;
   width: 30%;
-  margin: 60px 0px 0px 32px;
+  margin: 60px 0px 0px 0px;
 }
 main > section.ourSkills > div.text > h1 {
   font-weight: 400;
